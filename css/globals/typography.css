@@ -1,0 +1,31 @@
+.title_xxl {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 112.5%;
+}
+
+.text-l {
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: Roboto;
+    line-height: 150%;
+}
+
+@media (max-width: 1200px) {
+    .title_xxl {
+        font-size: 48px;
+    }
+    .text-l {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .title_xxl {
+        font-size: 32px;
+    }
+    .text-l {
+        font-size: 18px;
+    }
+}
