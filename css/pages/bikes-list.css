@@ -1,0 +1,51 @@
+.bikes-list {
+    padding-top: 40px;
+    padding-bottom: 120px;
+}
+
+.bikes-list h2 {
+    margin-bottom: 40px;
+}
+
+.bikes-list ul {
+    display: flex;
+    max-width: 1400px;
+    gap: 40px;
+    padding: 0px 20px;
+    overflow-x: auto;
+}
+.bikes-list li {
+    min-width: 280px;
+}
+.bikes-list h3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    padding-top: 16px;
+}
+.bikes-list h3::before {
+    content: '';
+    display: inline-block;
+    width: 0.75rem;
+    height: 0.5rem;
+    background-color: var(--color-primary-1);
+    margin-right: 8px;
+    transition: width 0.3s;
+}
+
+.bikes-list a:hover h3::before {
+    width: 24px;
+}
+
+.bikes-list li span {
+    padding-left: 20px;
+}
+
+@media (max-width: 900px) {
+    .bikes-list {
+        padding-bottom: 20px;
+    }
+    .bikes-list h2 {
+        margin-bottom: 20px;
+    }
+}
